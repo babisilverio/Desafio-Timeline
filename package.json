@@ -1,0 +1,20 @@
+{
+  "name": "projeto-barbara",
+  "version": "1.0.0",
+  "description": "Projeto para desafio da dito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barbara Costa Silverio",
+  "license": "ISC",
+  "devDependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.7.8",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6"
+  }
+}
