@@ -1,3 +1,4 @@
 var app = angular.module('timeline', [
-    'ui.router'
+    'ui.router',
+    'angular-timeline'
 ]);
