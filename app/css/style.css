@@ -6,6 +6,10 @@ body {
     background-color: aliceblue; 
 }
 
+.icon {
+  width: 1em;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;

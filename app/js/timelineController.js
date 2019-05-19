@@ -17,8 +17,6 @@ angular.module('timeline')
 				}
 			});
 
-			console.log($scope.eventos);
-
 			$scope.comprou = _.filter($scope.eventos, function (filtro) {
 				return filtro.event === 'comprou';
 			});
@@ -29,6 +27,7 @@ angular.module('timeline')
 
 			
 			// filtra os produtos pelo id_transaction
+			
 
 		}).catch(function (error) {
 			console.error(error);
